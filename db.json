@@ -50,7 +50,7 @@
             "rate": " Your code has been rated at -9.05/10 (previous run: -9.05/10, +0.00)\n"
         }
     },
-    "mastertech/api/jscpd": {
+    "mastertechjscpd": {
         "clones": [
             {
                 "format": "python",
@@ -95,4 +95,4 @@
         ],
         "time": "48 milliseconds"
     }
-  }
+}
