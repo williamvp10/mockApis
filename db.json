@@ -1,19 +1,5 @@
 {
-    "post":[
-        {
-          "id": 1,
-          "title": "Post 1"
-        },
-        {
-          "id": 2,
-          "title": "Post 2"
-        },
-        {
-          "id": 3,
-          "title": "Post 3"
-        }
-      ],
-      "mastertechpylint": {
+      "mastertech_pylint": {
         "pylintAnalisis": {
             "files": {
                 "william\\python1.py": [
@@ -50,7 +36,7 @@
             "rate": " Your code has been rated at -9.05/10 (previous run: -9.05/10, +0.00)\n"
         }
     },
-    "mastertechjscpd": {
+    "mastertech_jscpd": {
         "clones": [
             {
                 "format": "python",
@@ -95,7 +81,7 @@
         ],
         "time": "48 milliseconds"
     },
-    "mastertech/api/analisis/multimetric/": {
+    "mastertech_multimetric": {
         "multimetricAnalisis": {
             "files": {
                 "D:\\William\\MasterTech\\WORK\\Desarrollo\\apiPythonCodeAnalizer\\DirectorioTest\\Python\\modulo1\\leccion1\\william\\python1.py": {
