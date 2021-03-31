@@ -12,5 +12,87 @@
           "id": 3,
           "title": "Post 3"
         }
-      ]
+      ],
+      "mastertech/api/analisis/pylint/": {
+        "pylintAnalisis": {
+            "files": {
+                "william\\python1.py": [
+                    {
+                        "line": "16",
+                        "type": "error",
+                        "name": "E1120, no-value-for-parameter, Person.__init__",
+                        "description": "No value for argument 'name' in constructor call"
+                    },
+                    {
+                        "line": "12",
+                        "type": "refactor",
+                        "name": "R0903, too-few-public-methods, Person",
+                        "description": "Too few public methods (0/2"
+                    }
+                ],
+                "william\\pythonW1.py": [
+                    {
+                        "line": "7",
+                        "type": "convention",
+                        "name": "C0103, invalid-name,",
+                        "description": "Constant name \"sum\" doesn't conform to UPPER_CASE naming style"
+                    },
+                    {
+                        "line": "10",
+                        "type": "error",
+                        "name": "E0602, undefined-variable,",
+                        "description": "Undefined variable 'num3'"
+                    }
+                ]
+            },
+            "time_analisis": 0.015625,
+            "time_clear": 0.0,
+            "rate": " Your code has been rated at -9.05/10 (previous run: -9.05/10, +0.00)\n"
+        }
+    },
+    "mastertech/api/jscpd": {
+        "clones": [
+            {
+                "format": "python",
+                "foundDate": 1617172631980,
+                "duplicationA": {
+                    "sourceId": "documents/python/modulo1/leccion1/daniel/python3.py",
+                    "start": {
+                        "line": 1,
+                        "column": 1,
+                        "position": 0
+                    },
+                    "end": {
+                        "line": 10,
+                        "column": 2,
+                        "position": 54
+                    },
+                    "range": [
+                        0,
+                        182
+                    ],
+                    "fragment": "# This program adds two numbers\r\n\r\nnum1 = 1.5\r\nnum2 = 6.3\r\n\r\n# Add two numbers\r\nsum = num1 + num2\r\n\r\n# Display the sum\r\nprint('The sum of {0} and {1} is {2}'.format(num1, num2, sum))"
+                },
+                "duplicationB": {
+                    "sourceId": "documents/python/modulo1/leccion1/william/python1.py",
+                    "start": {
+                        "line": 1,
+                        "column": 1,
+                        "position": 0
+                    },
+                    "end": {
+                        "line": 10,
+                        "column": 2,
+                        "position": 54
+                    },
+                    "range": [
+                        0,
+                        182
+                    ],
+                    "fragment": "# This program adds two numbers\r\n\r\nnum1 = 1.5\r\nnum2 = 6.3\r\n\r\n# Add two numbers\r\nsum = num1 + num2\r\n\r\n# Display the sum\r\nprint('The sum of {0} and {1} is {2}'.format(num1, num2, sum))"
+                }
+            }
+        ],
+        "time": "48 milliseconds"
+    }
   }
