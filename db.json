@@ -127,36 +127,6 @@
                     "tiobe_functional": 100.0,
                     "tiobe_security": 100.0,
                     "tiobe_standard": 100.0
-                },
-                "D:\\William\\MasterTech\\WORK\\Desarrollo\\apiPythonCodeAnalizer\\DirectorioTest\\Python\\modulo1\\leccion1\\william\\pythonW1.py": {
-                    "comment_ratio": 37.35632183908046,
-                    "cyclomatic_complexity": 2,
-                    "fanout_external": 0,
-                    "fanout_internal": 0,
-                    "halstead_bugprop": 0.029189721069108297,
-                    "halstead_difficulty": 4.5,
-                    "halstead_effort": 394.061234432962,
-                    "halstead_timerequired": 21.892290801831223,
-                    "halstead_volume": 87.56916320732489,
-                    "lang": [
-                        "Python"
-                    ],
-                    "loc": 10,
-                    "maintainability_index": 100,
-                    "operands_sum": 12,
-                    "operands_uniq": 8,
-                    "operators_sum": 11,
-                    "operators_uniq": 6,
-                    "pylint": 100.0,
-                    "tiobe": 99.32835820895522,
-                    "tiobe_compiler": 100.0,
-                    "tiobe_complexity": 95.5223880597015,
-                    "tiobe_coverage": 100.0,
-                    "tiobe_duplication": 100.0,
-                    "tiobe_fanout": 100.0,
-                    "tiobe_functional": 100.0,
-                    "tiobe_security": 100.0,
-                    "tiobe_standard": 100.0
                 }
             },
             "overall": {
