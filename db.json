@@ -13,7 +13,7 @@
           "title": "Post 3"
         }
       ],
-      "mastertech/api/analisis/pylint/": {
+      "mastertechpylint": {
         "pylintAnalisis": {
             "files": {
                 "william\\python1.py": [
